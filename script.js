@@ -120,6 +120,12 @@ addEventListener('mousedown', function (e) {
     var radius = 15;
     particles.push(new Particles(x, y, radius, '#222'));
 })
+addEventListener('touchstart', function (e) {
+    var x = e.x;
+    var y = e.y;
+    var radius = 15;
+    particles.push(new Particles(x, y, radius, '#222'));
+})
 
 
 
