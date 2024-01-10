@@ -114,18 +114,13 @@ var groundHeight = 100;
 var particles = [];
 var miniparticles = [];
 
-addEventListener('mousedown', function (e) {
+addEventListener('click', function (e) {
     var x = e.x;
     var y = e.y;
     var radius = 15;
     particles.push(new Particles(x, y, radius, '#222'));
 })
-addEventListener('touchstart', function (e) {
-    var x = e.x;
-    var y = e.y;
-    var radius = 15;
-    particles.push(new Particles(x, y, radius, '#222'));
-})
+
 
 
 
